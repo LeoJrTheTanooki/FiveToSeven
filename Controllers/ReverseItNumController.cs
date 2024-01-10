@@ -15,7 +15,7 @@ public class ReverseItNumController : ControllerBase
     }
     [HttpGet]
     [Route("/ReverseNumber/{num}")]
-    public int ReverseItB(int num)
+    public string ReverseItB(string num)
     {
         return _reverseItNum.ReverseItB(num);
     }
